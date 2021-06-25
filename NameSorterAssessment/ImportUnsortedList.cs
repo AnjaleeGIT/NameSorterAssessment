@@ -6,16 +6,15 @@ using System.Text;
 
 namespace NameSorterAssessment
 {
-    /* Reads the file in the path that is provided, validates the given information and populates the Persons list*/
+    /* Reads the file in the path that is provided, validates the given 
+     * information and populates the Persons list*/
 
     class ImportUnsortedList
     {
         
         public static List<Person> ImportList(string filePath)
         {
-
-           
-
+            /*Read list of names from file and populate a list of string*/
             List<string> lines = new List<string> ();
             try {
                 lines= File.ReadAllLines(filePath).ToList();
@@ -24,16 +23,14 @@ namespace NameSorterAssessment
                 throw new ImportNamesExceptions("File of unsorted names is not found");
             
             }
-            
+
+            /*Check the number of names submitted per person as a person
+             * must have a last name and a minimum of one given name and a 
+             * maximum of three given names*/
 
             List<Person> people = new List<Person>();
-
-
             foreach (string line in lines) {
                 string[] entires = line.Split(' ');
-
-                /*Check the number of names submitted per person as a person
-                 must have a last name and a minimum of one given name and a maximum of three given names*/
                 Person newPerson;
                 switch (entires.Length)
                 {

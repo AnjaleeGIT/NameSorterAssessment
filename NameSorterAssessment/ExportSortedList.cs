@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.IO;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +17,6 @@ namespace NameSorterAssessment
             foreach (Person sortedPerson in sortedpeople)
             {
 
-                
                 output.Add(sortedPerson.FullName());
                 Console.WriteLine(sortedPerson.FullName());
                 try
@@ -32,9 +30,6 @@ namespace NameSorterAssessment
                    
                 }
             }
-
- 
-
         }
     }
 }

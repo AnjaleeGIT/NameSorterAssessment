@@ -12,7 +12,8 @@ namespace NameSorterAssessmentTest
         public void Sort()
         {
 
-            List < Person > = new Person();
+            //List < Person > = new Person();
+
         }
     }
 }

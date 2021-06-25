@@ -33,7 +33,8 @@ namespace NameSorterAssessment
             
         }
         public string FullName()
-        {
+        {   
+
             string personNameWithSpaces = $"{givenName1} {givenName2} {givenName3} {lastName}";
             string personName = personNameWithSpaces.Replace(" ", "()").Replace(")(", "").Replace("()", " ");
             return personName;
