@@ -9,7 +9,7 @@ namespace NameSorterAssessment
     /* Reads the file in the path that is provided, validates the given 
      * information and populates the Persons list*/
 
-    class ImportUnsortedList
+    public class ImportUnsortedList
     {
         
         public static List<Person> ImportList(string filePath)

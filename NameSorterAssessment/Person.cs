@@ -5,7 +5,7 @@ using System.Text;
 namespace NameSorterAssessment
 {
     /*A person should have atleast one given name and a last name and can have a max of three given names*/
-    class Person
+    public class Person
     {
         public string givenName1 { get; set; }
         public string givenName2 { get; set; }

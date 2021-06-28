@@ -6,7 +6,7 @@ using System.Linq;
 namespace NameSorterAssessment
 {
     /*Sort the list of names first by last name, then by any given names the person may have*/
-    class SortList
+    public class SortList
     {
         public static List<Person> SortNames(List<Person> people)
         {

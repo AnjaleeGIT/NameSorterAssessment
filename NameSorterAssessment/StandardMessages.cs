@@ -5,7 +5,7 @@ using System.Text;
 namespace NameSorterAssessment
 {
     /* Standard messages that are written on the console. */
-    class StandardMessages
+    public class StandardMessages
     {
 
         public static void WelcomeMessage() {

@@ -8,7 +8,7 @@ namespace NameSorterAssessment
 {
     /* Print the sorted list of names to screen and write/overwrite the sorted list of names to a file called sorted-names-list.txt.*/
 
-    class ExportSortedList
+    public class ExportSortedList
     {
         public static void ExportList(List<Person> sortedpeople)
         {

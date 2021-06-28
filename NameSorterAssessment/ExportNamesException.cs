@@ -4,7 +4,7 @@ using System.Text;
 
 namespace NameSorterAssessment
 {
-    class ExportNamesException : Exception
+    public class ExportNamesException : Exception
     {
 
         public ExportNamesException(string ex) : base(ex)
